@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #21496b);
+}
+
+.container {
+    padding: 100px;
+    opacity: 80%;
+}
+
+header {
+    position: relative;
+}
+.links {
+    position: relative;
+}
+
+.container,
+main,
+footer{
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    opacity: 80%;
+}
+
+.links {
+    padding: 20px;
+    margin: 10px;
+    right: 0;
+}
+
+
+.links {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.links ul li {
+    display: inline;
+}
+
+.links a:hover {
+    color: #21496b;
+}
+
+footer form {
+    display: flex;
+    align-items: center;
+}
+
+footer button {
+    background-color: #21496b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #21496b;
+}
+
+.email {
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+
+
+
+
